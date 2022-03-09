@@ -9,6 +9,7 @@ body{
 }
 
 
+
 .container{
   width: 70%;
   margin: 0 auto;
@@ -120,7 +121,8 @@ h2{
 }
 
 h3{
-  color: rgb(116, 127, 224)
+  color: rgb(116, 127, 224);
+  font-size: 1.5rem;
 }
 
 
@@ -230,7 +232,10 @@ main section .container .bottom{
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  font-size: 1.8rem;
 }
+
+
 
 /* FOOTER */
 
