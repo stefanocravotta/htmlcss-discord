@@ -50,9 +50,7 @@ ul{
 
 }
 
-ul li{
-  display: inline-block;
-}
+
 
 a{
   text-decoration: none;
@@ -60,9 +58,6 @@ a{
   display: inline-block;
 }
 
-ul li a{
-  padding: 0 20px;
-}
 
 
 ul li a:hover{
@@ -75,13 +70,13 @@ ul li a:hover{
 
 .button .small{
   height: 25px;
-  width: 60px;
+  /* width: 60px; */
   display: inline-block;
   background-color: white;
   color: black;
   line-height: 25px;
   border-radius: 30px;
-  padding: 3px;
+  padding: 3px 10px;
   
 }
 
@@ -138,6 +133,15 @@ header .header-top{
 
 .header-top .logo img{
   vertical-align: middle;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+
+nav ul li a{
+  padding: 0 20px;
 }
 
 header .jumbotron{
@@ -207,7 +211,7 @@ section .container .middle{
 }
 
 
-section .container .bottom{
+main section .container .bottom{
   height: 20%;
   text-align: center;
 }
@@ -229,4 +233,58 @@ section .container .bottom{
 
 footer{
   height: 600px;
+}
+
+footer .col-left{
+  width: 23%;
+  float: left;
+}
+
+footer .link-utili{
+  height: 75%;
+  width: 100%;
+  padding-top: 5%;
+  background-color: red;
+}
+
+aside .language img{
+  width: 15px;
+}
+
+footer .link-utili .col{
+  width: 15%;
+  float: left;
+  background-color: blue;
+  padding: 0 20px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+footer .link-utili .col-left ul li{
+  display: inline-block;
+  padding-right: 20px;
+}
+
+footer .link-utili .col ul li a{
+  padding-bottom: 10px;
+}
+
+
+footer aside.col-left{
+}
+
+footer .bottom{
+  margin-top: 2px solid black;
+  width: 100%;
+  
+}
+
+footer .bottom .logo{
+  margin-top: 20px;
+  display: inline-block;
+}
+
+footer .bottom .button{
+  float: right;
+  margin-top: 20px;
 }
