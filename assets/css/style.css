@@ -10,7 +10,7 @@ body{
 
 
 .container{
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   border: 2px solid black;
   height: 100%;
@@ -111,6 +111,11 @@ h1{
   padding: 5% 0;
 }
 
+h2{
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
 
 
 /* HEADER */
@@ -158,9 +163,35 @@ header .jumbotron{
 /* MAIN */
 
 section{
-  height: 500px;
+  height: 600px;
 }
 
+
+
+main section aside.box-img{
+  float: left;
+  width: 70%;
+  padding-top: 110px;
+
+}
+
+main section aside.description{
+  padding-top: 150px;
+  width: 30%;
+  float: left;
+  
+}
+main section aside.right{
+  padding-left: 5%;
+  width: 65%;
+}
+
+main section aside.description2{
+  padding-top: 150px;
+  width: 60%;
+  float: left;
+  
+}
 
 
 
