@@ -116,7 +116,9 @@ h2{
   margin-bottom: 30px;
 }
 
-
+.xl{
+  height: 900px ;
+}
 
 /* HEADER */
 
@@ -193,11 +195,38 @@ main section aside.description2{
   
 }
 
+section .container .top{
+  padding-top: 40px;
+  height: 20%;
+  text-align: center;
+}
 
+section .container .middle{
+  height: 60%;
+  text-align: center;
+}
+
+
+section .container .bottom{
+  height: 20%;
+  text-align: center;
+}
+
+.star{
+  position: relative;
+  margin: 0 auto;
+}
+
+.star span{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /* FOOTER */
 
 
 footer{
-  height: 1000px;
+  height: 600px;
 }
