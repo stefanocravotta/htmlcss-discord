@@ -12,7 +12,6 @@ body{
 .container{
   width: 70%;
   margin: 0 auto;
-  border: 2px solid black;
   height: 100%;
 }
 
@@ -72,8 +71,6 @@ ul li a:hover{
   height: 25px;
   /* width: 60px; */
   display: inline-block;
-  background-color: white;
-  color: black;
   line-height: 25px;
   border-radius: 30px;
   padding: 3px 10px;
@@ -84,7 +81,6 @@ ul li a:hover{
   width: 250px;
   height: 40px;
   padding: 0 10px;
-  background-color: black;
   line-height: 40px;
   border-radius: 20px;
 }
@@ -94,13 +90,25 @@ ul li a:hover{
   width: 150px;
   height: 40px;
   padding: 0 10px;
-  background-color: white;
+  /* background-color: white; */
   line-height: 40px;
   border-radius: 20px;
-  color: black;
   margin-right: 20px;
 }
 
+.button-blue{
+  background-color: rgb(116, 127, 224);
+  color: white;
+}
+
+.button-white{
+  background-color: white;
+  color: black;
+}
+.button-black{
+background-color: black;
+color: white;
+}
 
 h1{
   padding: 5% 0;
@@ -110,6 +118,11 @@ h2{
   font-size: 2rem;
   margin-bottom: 30px;
 }
+
+h3{
+  color: rgb(116, 127, 224)
+}
+
 
 .xl{
   height: 900px ;
@@ -201,18 +214,18 @@ main section aside.description2{
 
 section .container .top{
   padding-top: 40px;
-  height: 20%;
+  /* height: 20%; */
   text-align: center;
 }
 
 section .container .middle{
-  height: 60%;
+  /* height: 60%; */
   text-align: center;
 }
 
 
 main section .container .bottom{
-  height: 20%;
+  /* height: 20%; */
   text-align: center;
 }
 
@@ -244,7 +257,6 @@ footer .link-utili{
   height: 75%;
   width: 100%;
   padding-top: 5%;
-  background-color: red;
 }
 
 aside .language img{
@@ -254,9 +266,7 @@ aside .language img{
 footer .link-utili .col{
   width: 15%;
   float: left;
-  background-color: blue;
   padding: 0 20px;
-  border: 1px solid black;
   text-align: center;
 }
 
@@ -274,7 +284,7 @@ footer aside.col-left{
 }
 
 footer .bottom{
-  margin-top: 2px solid black;
+  border-top: 3px solid white;
   width: 100%;
   
 }
@@ -287,4 +297,8 @@ footer .bottom .logo{
 footer .bottom .button{
   float: right;
   margin-top: 20px;
+}
+
+footer .col ul li:first-of-type a{
+  color: rgb(116, 127, 224)
 }
