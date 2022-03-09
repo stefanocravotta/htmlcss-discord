@@ -3,3 +3,170 @@
   padding: 0;
   box-sizing: 0;
 }
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid black;
+  height: 100%;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+header{
+  background-color: rgb(17, 91, 202);
+  color: white;
+}
+
+.back-white{
+  background-color: white;
+}
+
+.back-grey{
+  background-color: grey;
+}
+
+.back-dark-grey{
+  background-color: rgb(26, 24, 24);
+}
+
+nav{
+  display: inline-block;
+}
+
+
+ul{
+  list-style: none;
+
+}
+
+ul li{
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+ul li a{
+  padding: 0 20px;
+}
+
+
+ul li a:hover{
+  text-decoration: underline;
+}
+
+.button{
+  display: inline-block;
+}
+
+.button .small{
+  height: 25px;
+  width: 60px;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  line-height: 25px;
+  border-radius: 30px;
+  padding: 3px;
+  
+}
+
+.button .large{
+  width: 250px;
+  height: 40px;
+  padding: 0 10px;
+  background-color: black;
+  line-height: 40px;
+  border-radius: 20px;
+}
+
+
+.button .medium{
+  width: 150px;
+  height: 40px;
+  padding: 0 10px;
+  background-color: white;
+  line-height: 40px;
+  border-radius: 20px;
+  color: black;
+  margin-right: 20px;
+}
+
+
+h1{
+  padding: 5% 0;
+}
+
+
+
+/* HEADER */
+
+header .header-top{
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.header-top .logo{
+  float: left;
+}
+
+.header-top .button{
+  float: right;
+}
+
+.header-top .logo img{
+  vertical-align: middle;
+}
+
+header .jumbotron{
+  height: 600px;
+  position: relative;
+  background-image: url(../img/jumbo.png);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.jumbotron .box-titolo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.jumbotron .box-titolo p{
+  margin-bottom: 30px;
+}
+
+/* MAIN */
+
+section{
+  height: 500px;
+}
+
+
+
+
+/* FOOTER */
+
+
+footer{
+  height: 1000px;
+}
