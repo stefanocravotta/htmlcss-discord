@@ -12,6 +12,7 @@ body{
 
 .container{
   width: 70%;
+  min-width: 1100px;
   margin: 0 auto;
   padding-bottom: 30px;
 }
@@ -116,13 +117,14 @@ h1{
 }
 
 h2{
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 30px;
 }
 
 h3{
   color: rgb(116, 127, 224);
   font-size: 1.5rem;
+  margin-bottom: 15px;
 }
 
 
@@ -133,7 +135,7 @@ h3{
 header .header-top{
   height: 60px;
   text-align: center;
-  line-height: 90px;
+  line-height: 80px;
 }
 
 .header-top .logo{
@@ -185,28 +187,31 @@ header .jumbotron{
 
 main section aside.box-img{
   float: left;
-  width: 70%;
+  width: 60%;
   padding-top: 110px;
 
 }
 
 main section aside.description{
   padding-top: 150px;
-  width: 30%;
+  width: 40%;
   float: left;
   
 }
-main section aside.right{
+/* main section aside.right{
   padding-left: 5%;
-  width: 65%;
-}
+  width: 60%;
+} */
 
 main section aside.description2{
   padding-top: 150px;
-  width: 60%;
+  width: 40%;
   float: left;
   
 }
+
+
+
 
 section .container .top{
   padding-top: 40px;
@@ -224,7 +229,7 @@ main section .container .bottom{
 
 .star{
   position: relative;
-  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .star span{
@@ -240,13 +245,17 @@ main section .container .bottom{
 /* FOOTER */
 
 
-
-
-footer .col-left{
-  width: 23%;
+footer .link-utili .col{
+  width: calc(100% / 6);
   float: left;
-  color: white;
+  /* padding: 0 20px; */
+  /* text-align: center; */
 }
+
+footer .col:first-of-type{
+  width: calc(100% / 3);
+}
+
 
 footer .link-utili{
   width: 100%;
@@ -257,11 +266,15 @@ aside .language img{
   width: 15px;
 }
 
-footer .link-utili .col{
-  width: 15%;
-  float: left;
-  padding: 0 20px;
+aside .language{
+  color: white;
+}
+
+
+.social a{
   text-align: center;
+  float: left;
+  padding-right: 15px;
 }
 
 footer .link-utili .col-left ul li{
